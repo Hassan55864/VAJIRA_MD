@@ -8,12 +8,12 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=2dFURTbD#q1606h39XEiV5H6VjyRRpFsZAqmk6kROXnT_ncGhJJI' : process.env.SESSION_ID,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '923186005563' : process.env.OWNER_NUMBER,
-N_JID: process.env.N_JID=== undefined ? '‌': process.env.N_JID,    
+N_JID: process.env.N_JID=== undefined ? '‌true': process.env.N_JID,    
 PREFIX: process.env.PREFIX || '.' ,
 FOOTER: process.env.FOOTER=== undefined ? '‌👨‍💻 ᴠᴀᴊɪʀᴀ ᴍᴅ ʙʏ ᴛᴄ ᴛᴇᴀᴍ 👨‍💻': process.env.FOOTER,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,   
 MAX_SIZE: 500,
 PAIR: 'https://stuck-godiva-vajiratech2003-a4248d0c.koyeb.app/code?number=',       
 ALIVE:  process.env.ALIVE  || '> VAJIRA MD'  ,    
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO        
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? 'false' : process.env.DELETEMSGSENDTO        
 };
